@@ -1,0 +1,54 @@
+[
+  {
+    "stationId": "CAB285000643",
+    "name": "천안톨게이트",
+    "busRoutes": [
+      14,
+      700,
+      701,
+      702
+    ]
+  },
+  {
+    "stationId": "CAB285010125",
+    "name": "종합터미널",
+    "busRoutes": [
+      14,
+      700,
+      701,
+      702
+    ]
+  },
+  {
+    "stationId": "CAB285000685",
+    "name": "종합터미널",
+    "busRoutes": [
+      14,
+      700,
+      701,
+      702
+    ]
+  },
+  {
+    "stationId": "CAB285000979",
+    "name": "두정역입구",
+    "busRoutes": [
+      14
+    ]
+  },
+  {
+    "stationId": "CAB285001035",
+    "name": "두정역",
+    "busRoutes": [
+      14
+    ]
+  },
+  {
+    "stationId": "CAB285000656",
+    "name": "천안역 동부광장",
+    "busRoutes": [
+      700,
+      702
+    ]
+  }
+]

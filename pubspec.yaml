@@ -47,6 +47,8 @@ dependencies:
   image_picker: ^0.8.7+5
   http: ^1.4.0
   flutter_inappwebview: ^6.1.5
+  google_fonts: ^4.0.4
+
 
 dev_dependencies:
   flutter_test:
@@ -85,6 +87,18 @@ flutter:
     - asset/img/호서대학교.png
     - asset/img/google_logo.png
     - asset/img/kakao_logo.png
+    - asset/stop/stops_상명대학교.json
+    - asset/stop/stops_호서대학교.json
+    - asset/stop/stops_백석대학교.json
+    - asset/stop/stops_백석문화대학교.json
+    - asset/stop/stops_단국대학교.json
+    - asset/stop/stops_국립공주대학교.json
+    - asset/stop/stops_한국기술교육대학교.json
+    - asset/stop/stops_남서울대학교.json
+    - asset/stop/stops_선문대학교.json
+    - asset/stop/stops_순천향대학교.json
+    - asset/stop/stops_나사렛대학교.json
+    - asset/img/transport_10890745.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -101,7 +115,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: BlackHanSans
+      fonts:
+            - asset: asset/fonts/BlackHanSans-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

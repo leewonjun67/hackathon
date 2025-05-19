@@ -1,0 +1,52 @@
+[
+  {
+    "stationId": "CAB285071774",
+    "name": "쌍용역(종합터미널방면)",
+    "busRoutes": [
+      12
+    ]
+  },
+  {
+    "stationId": "CAB285071775",
+    "name": "쌍용역(방아다리공원방면)",
+    "busRoutes": [
+      12
+    ]
+  },
+  {
+    "stationId": "CAB285000824",
+    "name": "쌍용역예일병원계룡아파트",
+    "busRoutes": [
+      92,
+      94
+    ]
+  },
+  {
+    "stationId": "CAB288002050",
+    "name": "패션1광장",
+    "busRoutes": [
+      1
+    ]
+  },
+  {
+    "stationId": "CAB288002218",
+    "name": "아산역",
+    "busRoutes": [
+      21
+    ]
+  },
+  {
+    "stationId": "CAB288002022",
+    "name": "천안아산역",
+    "busRoutes": [
+      20
+    ]
+  },
+  {
+    "stationId": "CAB285000687",
+    "name": "고속터미널",
+    "busRoutes": [
+      12
+    ]
+  }
+]

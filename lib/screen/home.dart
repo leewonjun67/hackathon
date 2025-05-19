@@ -9,6 +9,7 @@ import 'package:hackathon/screen/cctv.dart';
 import 'package:hackathon/screen/weather.dart';
 import 'package:hackathon/fuction/network.dart';
 import 'package:hackathon/fuction/location.dart';
+
 class HomeScreen extends StatefulWidget {
   final String university;
   final String url;
@@ -337,14 +338,17 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         onPressed: () {
           if (destination is String) {
-            Navigator.pushNamed(context, destination, arguments: arguments);
+            if (destination == '/traffic') {
+              Navigator.pushNamed(context, '/traffic', arguments: widget.university);
+            } else {
+              Navigator.pushNamed(context, destination, arguments: arguments);
+            }
           } else if (destination is WidgetBuilder) {
             Navigator.push(
               context,
               MaterialPageRoute(builder: destination),
             );
           } else if (destination is Widget) {
-            // 이 경우는 피하는 게 좋지만, 만약 꼭 인스턴스가 왔다면
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => destination),

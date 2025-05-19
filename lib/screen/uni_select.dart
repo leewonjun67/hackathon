@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:hackathon/screen/home.dart';
+import 'package:hackathon/upload/upload_stops.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'dart:convert';
 
 class UniversitySearch extends StatefulWidget {
   @override
@@ -54,6 +57,26 @@ class _UniversitySearchState extends State<UniversitySearch> {
   List<String> filteredUniversities = [];
   TextEditingController searchController = TextEditingController();
   String? selectedUniversity;
+
+  Future<void> uploadStopsForUniversity(String university) async {
+    print('🔥 uploadStopsForUniversity 시작됨: $university');
+
+    try {
+      final String filePath = 'asset/stop/stops_${university}.json';
+      final String jsonString = await rootBundle.loadString(filePath);
+      final List<dynamic> stopsData = json.decode(jsonString);
+
+      await FirebaseFirestore.instance
+          .collection('university')
+          .doc(university)
+          .set({'stops': stopsData}, SetOptions(merge: true));
+
+      print('$university 정류장 Firestore 업로드 완료');
+    } catch (e, stack) {
+      print('$university 업로드 실패: $e');
+      print('스택 트레이스: $stack');
+    }
+  }
 
   @override
   void initState() {

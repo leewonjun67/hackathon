@@ -1,0 +1,40 @@
+[
+  {
+    "stationId": "CAB285000655",
+    "name": "제1캠퍼스 : 천안역동부광장",
+    "busRoutes": [
+      405,
+      402
+    ]
+  },
+  {
+    "stationId": "CAB285000678",
+    "name": "제2캠퍼스 : 천안역",
+    "busRoutes": [
+      10
+    ]
+  },
+  {
+    "stationId": "CAB285001034",
+    "name": "제2캠퍼스 : 두정역",
+    "busRoutes": [
+      5,
+      14,
+      11
+    ]
+  },
+  {
+    "stationId": "CAB285010014",
+    "name": "제2캠퍼스 : 종합터미널",
+    "busRoutes": [
+      10
+    ]
+  },
+  {
+    "stationId": "CAB285000687",
+    "name": "제2캠퍼스 : 고속터미널",
+    "busRoutes": [
+      14
+    ]
+  }
+]
