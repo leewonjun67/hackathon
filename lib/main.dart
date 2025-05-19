@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:hackathon/screen/Start.dart';
 import 'package:hackathon/screen/home.dart';
 import 'package:hackathon/screen/chat_message.dart';
-import 'package:hackathon/screen/Real_time_treffic.dart'; // 실시간 교통 화면
+import 'package:hackathon/screen/Real_time_traffic.dart'; // 실시간 교통 화면
 import 'package:kakao_flutter_sdk_user/kakao_flutter_sdk_user.dart';
 
 import 'firebase_options.dart';
