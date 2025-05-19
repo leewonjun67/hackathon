@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091084902543",
+    "firebase_url": "https://hackathon-459602-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hackathon-459602",
+    "storage_bucket": "hackathon-459602.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091084902543:android:1f141acecd922bfb2cd0fa",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091084902543-m9gkp70qqe2u5hh8li7ri9hbackm0jqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackathon",
+            "certificate_hash": "73479b8c5ccd3d7150830aba750f4c9fbbef7596"
+          }
+        },
+        {
+          "client_id": "1091084902543-ldbmdab75nvbl7busg7jqadvk58tvku4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf4tytW4pzUcUqVEAjWb6Ntou5znFxCMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091084902543-ldbmdab75nvbl7busg7jqadvk58tvku4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
